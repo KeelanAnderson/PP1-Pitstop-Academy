@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300;1,400;1,600&family=Lato:wght@300;400&display=swap');
 
 * {
      margin: 0;
@@ -8,4 +8,14 @@
 
 body {
      font-family: Lato, sans-serif;
+     color: #3a3a3a;
+}
+
+/* headings and logos */
+
+h1, h2 {
+     font-family: kanit, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px
+
 }
