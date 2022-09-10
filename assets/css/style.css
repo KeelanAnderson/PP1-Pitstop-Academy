@@ -14,7 +14,8 @@ body {
 
 /* headings and logos */
 
-h1, h2 {
+h1,
+h2 {
      font-family: 'Roboto Slab', sans-serif;
      text-transform: uppercase;
      letter-spacing: 4px;
@@ -25,7 +26,6 @@ h1, h2 {
 #logo {
      float: left;
      font-size: 250%
-
 }
 
 /* navigation links */
@@ -35,7 +35,8 @@ h1, h2 {
      letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
      line-height: 75px;
 }
 
@@ -68,6 +69,23 @@ h1, h2 {
      clear: both;
 }
 
+#cover-text,
+#cover-text h2 {
+     color: #fff;
+}
+
+#cover-text {
+     font-size: 130%;
+     font-family: 'Roboto Slab', sans-serif;
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+
+}
+
 /* footer */
 
 footer {
@@ -78,7 +96,7 @@ footer {
      text-align: center;
 }
 
-.social-media > li {
+.social-media>li {
      display: inline;
 }
 
