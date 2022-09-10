@@ -57,3 +57,13 @@ h1, h2 {
 .active {
      border-bottom: 1px solid #3a3a3a;
 }
+
+/* main image*/
+
+#main-image {
+     height: 600px;
+     width: 100%;
+     background: url('../images/pexels-andrea-piacquadio-3806249.jpg') no-repeat center center;
+     background-size: cover;
+     clear: both;
+}
