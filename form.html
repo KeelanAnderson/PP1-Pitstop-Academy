@@ -42,57 +42,60 @@
 
             <br>
 
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
+            <label for="fname">First Name:</label>
+            <input class="input-text" id="fname" name="first_name" type="text" required>
 
             <br>
 
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
+            <label for="lname">Last Name:</label>
+            <input class="input-text" id="lname" name="last_name" type="text" required>
 
             <br>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+            <label for="email">Email Address:</label>
+            <input class="input-text" type="email" id="email" name="email_address" required>
 
             <br>
 
-            <label for="date">Date Of Birth</label>
-            <input type="date" id="date" name="date" max="2006-01-01" required>
+            <label for="date">Date Of Birth:</label>
+            <input class="input-text" type="date" id="date" name="date" max="2006-01-01" required>
 
             <br>
 
             <label for="phone">Phone Number:</label>
-            <input type="number" id="phone" name="phone" min="8" max="10" required>
+            <input class="input-text" type="number" id="phone" name="phone" min="0" max="9999999999" required>
 
             <br>
 
-            <label for="address">Address</label>
-            <textarea cols="50" rows="5" value="address" id="address" name="address"></textarea> 
+            <label for="address">Address:</label>
+            <textarea class="textarea-form" cols="50" rows="5" value="address" id="address" name="address"></textarea> 
 
             <br>
 
+            <div>
             <p>Do you hold a full irish driving licence? (not required*)</p>
+            <br>
             <label for="licence-yes">Yes</label>
             <input type="radio" id="licence-yes" name="driving_licence" value="licence-yes" required>
             <label for="licence-no">No</label>
             <input type="radio" id="licence-no" name="driving_licence" value="licence-no" required>
             <label for="provisional">Provisional</label>
             <input type="radio" id="provisional" name="driving_licence" value="provisional" required>
+            </div>
 
             <br>
 
             <label for="addcv">Add CV here (not required*)</label>
-            <input type="file" id="addcv" name="addcv">
+            <input class="input-text" type="file" id="addcv" name="addcv">
 
             <br>
 
-            <label for="add-info">Additonal Information</label>
-            <textarea cols="50" rows="5" value="add-info" id="add-info" name="add-info"></textarea>
+            <label for="add-info">Any Additonal Information:</label>
+            <textarea class="textarea-form" cols="50" rows="5" value="add-info" id="add-info" name="add-info"></textarea>
 
             <br>
             
-            <input type="submit" value="Apply Now!">
+            <input class="apply-now-button" type="submit" value="Apply Now!">
 
         </form>
     </section>
