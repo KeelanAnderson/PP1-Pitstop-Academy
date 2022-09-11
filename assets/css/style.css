@@ -177,9 +177,20 @@ footer {
 
 .form-section {
      clear: left;
-     background-color: gray;
+     background: url("../images/pexels-matheus-bertelli-3007436.jpg") no-repeat center center;
      background-size: cover;
      background-position: center;
-     height: 900px;
+     height: 1200px;
 }
 
+.application-form{
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.5);
+    max-width: 600px;
+    height: 80%;
+    position: absolute;
+    left: 10%;
+    padding: 50px;
+    border: 2px solid red;
+}
