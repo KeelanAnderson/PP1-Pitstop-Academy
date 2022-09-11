@@ -158,7 +158,6 @@ footer {
 
 .course-box > ul {
      list-style-type: initial;
-     text-decoration: ;
      font-size: 1.5rem;
      text-align: left;
       
@@ -173,3 +172,14 @@ footer {
      font-family: 'Roboto Slab', sans-serif;
      
 }
+
+/* Apply Now page */
+
+.form-section {
+     clear: left;
+     background-color: gray;
+     background-size: cover;
+     background-position: center;
+     height: 900px;
+}
+
