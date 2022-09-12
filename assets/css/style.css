@@ -186,7 +186,7 @@ footer {
 .application-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.5);
+    background-color: rgba(60, 60, 60, 0.9 );
     max-width: 600px;
     height: 130%;
     position: absolute;
