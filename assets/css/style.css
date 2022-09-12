@@ -120,42 +120,6 @@ footer {
      border: 1px solid #3a3a3a;
 }
 
-#intro {
-     height: 300px;
-     width: 80%;
-     background: url('../images/pexels-andrea-piacquadio-3806249.jpg') no-repeat center center;
-     background-size: cover;
-     opacity: 0.7;
-     clear: both;
-}
-
-#truck-image {
-     height: 300px;
-     width: 80%;
-     background: url('../images/pexels-mike-b-13520550.jpg') no-repeat center center;
-     background-size: cover;
-     opacity: 0.7;
-     clear: both;
-}
-
-#car-tyre-image {
-     height: 300px;
-     width: 80%;
-     background: url('../images/pexels-mike-b-1007410.jpg') no-repeat center center;
-     background-size: cover;
-     opacity: 0.7;
-     clear: both;
-}
-
-#tractor-image {
-     height: 300px;
-     width: 80%;
-     background: url('../images/pexels-mike-b-12973136.jpg') no-repeat center center;
-     background-size: cover;
-     opacity: 0.7;
-     clear: both;
-}
-
 .course-box > ul {
      list-style-type: initial;
      font-size: 1.5rem;
@@ -164,13 +128,6 @@ footer {
     left: 40px;
     top: 20px;
 
-}
-
-#new {
-     float:right;
-     color: red;
-     font-family: 'Roboto Slab', sans-serif;
-     
 }
 
 /* Apply Now page */
@@ -230,3 +187,6 @@ footer {
      color: #fff;
      background-color: red;
 }
+
+/* media queries */
+

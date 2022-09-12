@@ -64,23 +64,24 @@
 
             <label for="phone">Phone Number:</label>
             <input class="input-text" type="number" id="phone" name="phone" min="0" max="9999999999" required>
+            <!-- <input class="input-text" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> -->
 
             <br>
 
             <label for="address">Address:</label>
-            <textarea class="textarea-form" cols="50" rows="5" value="address" id="address" name="address"></textarea> 
+            <textarea class="textarea-form" cols="50" rows="5" value="address" id="address" name="address"></textarea>
 
             <br>
 
             <div>
-            <p>Do you hold a full irish driving licence? (not required*)</p>
-            <br>
-            <label for="licence-yes">Yes</label>
-            <input type="radio" id="licence-yes" name="driving_licence" value="licence-yes" required>
-            <label for="licence-no">No</label>
-            <input type="radio" id="licence-no" name="driving_licence" value="licence-no" required>
-            <label for="provisional">Provisional</label>
-            <input type="radio" id="provisional" name="driving_licence" value="provisional" required>
+                <p>Do you hold a full irish driving licence? (not required*)</p>
+                <br>
+                <label for="licence-yes">Yes</label>
+                <input type="radio" id="licence-yes" name="driving_licence" value="licence-yes" required>
+                <label for="licence-no">No</label>
+                <input type="radio" id="licence-no" name="driving_licence" value="licence-no" required>
+                <label for="provisional">Provisional</label>
+                <input type="radio" id="provisional" name="driving_licence" value="provisional" required>
             </div>
 
             <br>
@@ -91,10 +92,11 @@
             <br>
 
             <label for="add-info">Any Additonal Information:</label>
-            <textarea class="textarea-form" cols="50" rows="5" value="add-info" id="add-info" name="add-info"></textarea>
+            <textarea class="textarea-form" cols="50" rows="5" value="add-info" id="add-info"
+                name="add-info"></textarea>
 
             <br>
-            
+
             <input class="apply-now-button" type="submit" value="Apply Now!">
 
         </form>
