@@ -88,7 +88,8 @@ h2 {
 /* footer */
 
 footer {
-     height: 150px;
+     height: 200px;
+     background-color: #fff;
 }
 
 .social-media {
@@ -108,8 +109,14 @@ footer {
 
 /* courses page */
 
+.course-section {
+     clear: left;
+     background: url("../images/pexels-andrea-piacquadio-3806252.jpg");
+     overflow: auto;
+}
+
 .course-box {
-     width: 80%;
+     /* width: 80%;
      height: 300px;
      background-color: gray;
      color: #fff;
@@ -117,8 +124,20 @@ footer {
      text-align: center;
      
      margin: 25px 75px;
-     border: 1px solid #3a3a3a;
+     border: 1px solid #3a3a3a; */
+
+    margin: 150px 0 150px 10%;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.9 );
+    width: 600px;
+    height: 600px;
+    left: 10%;
+    padding: 80px;
+    border: 2px solid red;
+    clear: both;
 }
+
+
 
 .course-box > ul {
      list-style-type: initial;
