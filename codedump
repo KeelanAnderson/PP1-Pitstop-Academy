@@ -129,3 +129,22 @@
      float: right;
      color: #fff;
 }
+<h2 id="about-heading">Our Courses</h2>
+
+            <div id="left-about">
+                <h3>Apprenticeship Program</h3>
+                <p>
+                    We offer the first formal apprenticeship program in the tyre industry.
+                    Learn more about our apprenticeship program <a href="courses.html">here!</a>
+                </p>
+
+                <a href='form.html'>
+                    <button class="apply-now-button">
+                        Apply Now!
+                    </button>
+            </div>
+
+            <div id="right-about">
+                <h3>roadside safety</h3>
+                <p></p>
+            </div>
