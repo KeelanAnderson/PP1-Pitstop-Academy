@@ -88,141 +88,142 @@ h2 {
 
 /* about us section */
 
-#about-us {
+.about-us {
+     height: 500px;
+     width: 100%;
+     background-color: #f1f;
      text-align: center;
-     margin: 30px 0 50px;
-     text-decoration: underline;
 }
 
-.about-us-apprentice {
-     height: 600px;
-     width: 50%;
-     background-color: blue;
-     display: inline-block;
+.about-us h2 {
+     font-size: 1.75rem;
+     color: red;
+     margin-bottom: 30px;
+     padding-top: 40px;
+}
+
+.about-us p {
+     font-size: 1.5rem;
+     color: #fff;
+     padding: 20px 200px 20px 200px;
 
 }
 
-.about-us-roadside {
-     height: 600px;
-     width: 50%;
-     background-color: green;
-     float: right;
+/* footer */
+
+footer {
+
+     width: 100%;
+     height: 200px;
+     background-color: #fff;
+}
+
+.social-media {
+     text-align: center;
+}
+
+.social-media>li {
+     display: inline;
+}
+
+.social-media i {
+     font-size: 160%;
+     margin: 1%;
+     padding: 5%;
+     color: #3a3a3a;
+}
+
+/* courses page */
+
+.course-section {
+     clear: left;
+     background: url("../images/pexels-andrea-piacquadio-3806252.jpg");
+     overflow: auto;
+}
+
+.course-box {
+     margin: 150px 0 150px 10%;
+     color: #fff;
+     background-color: rgba(60, 60, 60, 0.9);
+     width: 600px;
+     height: 100%;
+     left: 10%;
+     padding: 80px;
+     border: 2px solid red;
+     clear: both;
+     overflow: hidden;
+}
+
+.course-box h2,
+.course-box h3 {
+     margin-bottom: 20px;
+}
 
 
+.course-box ul,
+.course-box p {
+     margin: 10px auto 20px;
 
-     /* footer */
+}
 
-     footer {
+/* Apply Now page */
 
-          width: 100%;
-          height: 200px;
-          background-color: #fff;
-     }
+.form-section {
+     clear: left;
+     background: url("../images/pexels-matheus-bertelli-3007436.jpg") no-repeat center center;
+     background-size: cover;
+     background-position: center;
+     height: 1500px;
+}
 
-     .social-media {
-          text-align: center;
-     }
+.application-form {
+     margin: 150px 10% 0 0;
+     color: #fff;
+     background-color: rgba(60, 60, 60, 0.9);
+     max-width: 600px;
+     height: 130%;
+     position: absolute;
+     left: 10%;
+     padding: 80px;
+     border: 2px solid red;
+     min-height: 900px;
+     overflow: hidden;
+}
 
-     .social-media>li {
-          display: inline;
-     }
+.application-form h2 {
+     margin-bottom: 30px;
+}
 
-     .social-media i {
-          font-size: 160%;
-          margin: 1%;
-          padding: 5%;
-          color: #3a3a3a;
-     }
+.input-text {
+     background: transparent;
+     color: #fff;
+     width: 100%;
+     height: 20px;
+     margin: 5px 0 30px 0;
+     border: 1px solid #fff;
+}
 
-     /* courses page */
+.textarea-form {
+     background: transparent;
+     color: #fff;
+     width: 100%;
+     height: 80px;
+     margin: 5px 0 30px 0;
+     border: 1px solid #fff;
+     resize: none;
 
-     .course-section {
-          clear: left;
-          background: url("../images/pexels-andrea-piacquadio-3806252.jpg");
-          overflow: auto;
-     }
+}
 
-     .course-box {
-          margin: 150px 0 150px 10%;
-          color: #fff;
-          background-color: rgba(60, 60, 60, 0.9);
-          width: 600px;
-          height: 100%;
-          left: 10%;
-          padding: 80px;
-          border: 2px solid red;
-          clear: both;
-          overflow: hidden;
-     }
+.apply-now-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 35px 15px 35px;
+     text-align: center;
+     font-size: 100%;
+     color: #fff;
+     background-color: red;
+}
 
-     .course-box h2,
-     .course-box h3 {
-          margin-bottom: 20px;
-     }
-
-
-     .course-box ul,
-     .course-box p {
-          margin: 10px auto 20px;
-
-     }
-
-     /* Apply Now page */
-
-     .form-section {
-          clear: left;
-          background: url("../images/pexels-matheus-bertelli-3007436.jpg") no-repeat center center;
-          background-size: cover;
-          background-position: center;
-          height: 1500px;
-     }
-
-     .application-form {
-          margin: 150px 10% 0 0;
-          color: #fff;
-          background-color: rgba(60, 60, 60, 0.9);
-          max-width: 600px;
-          height: 130%;
-          position: absolute;
-          left: 10%;
-          padding: 80px;
-          border: 2px solid red;
-          min-height: 900px;
-          overflow: hidden;
-     }
-
-     .application-form h2 {
-          margin-bottom: 30px;
-     }
-
-     .input-text {
-          background: transparent;
-          color: #fff;
-          width: 100%;
-          height: 20px;
-          margin: 5px 0 30px 0;
-          border: 1px solid #fff;
-     }
-
-     .textarea-form {
-          background: transparent;
-          color: #fff;
-          width: 100%;
-          height: 80px;
-          margin: 5px 0 30px 0;
-          border: 1px solid #fff;
-          resize: none;
-
-     }
-
-     .apply-now-button {
-          margin-top: 20px;
-          border-radius: 2px;
-          padding: 15px 35px 15px 35px;
-          text-align: center;
-          font-size: 100%;
-          color: #fff;
-          background-color: red;
-     }
-
-     /* media queries */
+/* media queries */
+     
+     

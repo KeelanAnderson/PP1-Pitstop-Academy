@@ -1,0 +1,131 @@
+
+        <section>
+
+            <h2 id="about-us">About Us</h2>
+
+            <br>
+            <div class=courses-home>
+                <div id="about-apprentice">
+                    <h3>Apprenticeship Program</h3>
+                    <p>
+                        We offer the first formal apprenticeship program in the tyre industry.
+                        Learn more about our apprenticeship program <a href="courses.html">here!</a>
+                    </p>
+
+                    <a href='form.html'>
+                        <button class="apply-now-button">
+                            Apply Now!
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class=courses-home>
+                <div id="about-roadside">
+
+                    <h3>Roadside Breakdown & Safety Course</h3>
+                    <p>
+                        We also provide a course on roadise breakdowns and safety for all fitters working on the side of
+                        the
+                        road.
+                        find out more about this course <a href="courses.html">here!</a>
+                    </p>
+
+                    <a href='course2form.html'>
+                        <button class="apply-now-button">
+                            Apply Now!
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <h2>Find Us here!</h2>
+            <p>Pitstop Academy,<br>Collinstown Business Park,<br>Dublin</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.091676516279!2d-6.239628349520449!3d53.413186572784966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fdfd32fc94f%3A0xcd7906c62be77ed8!2sMidland%20Tyre%20Services!5e0!3m2!1sen!2sie!4v1663003273384!5m2!1sen!2sie"
+                width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </section>
+
+    </section>
+
+
+
+
+    .courses-home {
+        height: 450px;
+        width: 50%;
+        text-align: center;
+        color: #fff;
+   
+        padding-top: 20px;
+   
+        display: inline-block;
+        overflow: hidden;
+   }
+   
+   #about-us {
+        text-align: center;
+        margin: 30px 0 20px;
+        text-decoration: underline;
+   }
+   
+   #about-apprentice {
+        background-color: blue;
+        float: left;
+     
+   }
+   
+   #about-roadside {
+        background-color: green;
+        float: right;
+     
+   }
+
+
+
+   
+/* about us section */
+
+#about-heading {
+     font-size: 2rem;
+     text-align: center;
+     text-decoration: underline;
+     margin: 20px 0 30px;
+}
+
+#left-about {
+     height: 450px;
+     width: 60%;
+     background-color: green;
+     float: left;
+     color: #fff;
+
+}
+
+#left-about h3 {
+     font-size: 3rem;
+     color: red;
+     margin-bottom: 30px;
+}
+
+#left-about p {
+     font-size: 1.25rem;
+     color: #fff;
+     margin: 100px;
+}
+
+
+
+#right-about {
+     height: 450px;
+     width: 60%;
+     background-color: blue;
+     float: right;
+     color: #fff;
+}
