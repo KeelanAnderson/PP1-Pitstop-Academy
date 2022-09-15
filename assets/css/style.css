@@ -95,11 +95,12 @@ h2 {
      text-align: center;
 }
 
-.about-us h2 {
+.about-us h2, .our-courses h2 {
      font-size: 1.75rem;
      color: red;
      margin-bottom: 30px;
      padding-top: 40px;
+     text-align: center;
 }
 
 .about-us p {
@@ -108,6 +109,33 @@ h2 {
      padding: 20px 200px 20px 200px;
 
 }
+
+/* our course */
+
+.our-courses {
+     height: 100%;
+     width: 100%;
+
+     background-color:aquamarine;
+}
+
+#apprentice-course {
+     height: 450px;
+     width: 100%;
+     padding: 80px;
+    
+}
+
+#safety-course {
+     height: 450px;
+     width: 100%;
+     text-align: right;
+     padding:  20px 0 20px 80px;
+    
+}
+
+
+
 
 /* footer */
 
