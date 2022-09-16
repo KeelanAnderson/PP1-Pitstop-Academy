@@ -68,6 +68,7 @@ h2 {
      background: url('../images/pexels-andrea-piacquadio-3806249.jpg') no-repeat center center;
      background-size: cover;
      clear: both;
+   
 }
 
 #cover-text,
@@ -96,7 +97,8 @@ h2 {
      text-align: center;
 }
 
-.about-us h2, .our-courses h2 {
+.about-us h2,
+.our-courses h2 {
      font-size: 1.75rem;
      color: red;
      margin-bottom: 30px;
@@ -119,8 +121,8 @@ h2 {
      box-sizing: content-box;
      margin-bottom: 50px;
 
-     background-color:#fff;
-     
+     background-color: #fff;
+
 }
 
 .our-courses h3 {
@@ -130,11 +132,12 @@ h2 {
 
 }
 
-.our-courses p, .our-courses ul {
+.our-courses p,
+.our-courses ul {
      font-size: 1.25rem;
      color: #fff;
      width: 60%;
-     
+
 }
 
 .icons {
@@ -173,7 +176,7 @@ h2 {
      float: right;
      position: relative;
      bottom: 300px;
-     
+
 }
 
 #safety-image {
@@ -184,25 +187,28 @@ h2 {
 
      float: right;
      position: relative;
-     bottom: 300px;
+     bottom: 400px;
+     right: 20%;
+     
 
 }
 
 /* contact and location section */
 
 #contact-section {
-     color:#3a3a3a;
+     color: #3a3a3a;
      margin-left: 230px;
+     height: 200px;
+     width: 20%;
+    
 
 }
 
 iframe {
-     height:450px;
-     width: 50%;
-     position: absolute;
-     float:right;
-     right:5%;
-
+     height: 450px;
+     width: 80%;
+     display: inline;
+     margin: 0 200px 0 200px;
 }
 
 
@@ -210,11 +216,12 @@ iframe {
 
 
 footer {
-
+     height: 100px;
      width: 100%;
-     height: 200px;
      background-color: #fff;
-     position: absolute;
+
+
+
 }
 
 .social-media {
@@ -324,5 +331,9 @@ footer {
 }
 
 /* media queries */
+
+/* for large to medium screen sizes from 1200px wide and down */
+
+@media screen and (max-width 1200px) {
      
-     
+}
