@@ -188,6 +188,26 @@ h2 {
 
 }
 
+/* contact and location section */
+
+#contact-section {
+     height: 300px;
+     width: 50%;
+     float: right;
+     color:#fff
+
+     background-color: coral;
+}
+
+#location-section {
+     height: 300px;
+     width: 50%;
+     color: #fff;
+
+     background-color: aquamarine;
+}
+
+
 
 
 /* footer */
