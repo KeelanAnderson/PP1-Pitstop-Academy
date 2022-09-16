@@ -25,7 +25,8 @@ h2 {
 
 #logo {
      float: left;
-     font-size: 250%
+     font-size: 250%;
+     margin-left: 30px;
 }
 
 /* navigation links */
@@ -173,7 +174,6 @@ h2 {
      position: relative;
      bottom: 300px;
      
-     
 }
 
 #safety-image {
@@ -191,26 +191,23 @@ h2 {
 /* contact and location section */
 
 #contact-section {
-     height: 300px;
-     width: 50%;
-     float: right;
-     color:#fff
+     color:#3a3a3a;
+     margin-left: 230px;
 
-     background-color: coral;
 }
 
-#location-section {
-     height: 300px;
+iframe {
+     height:450px;
      width: 50%;
-     color: #fff;
+     position: absolute;
+     float:right;
+     right:5%;
 
-     background-color: aquamarine;
 }
-
-
 
 
 /* footer */
+
 
 footer {
 
