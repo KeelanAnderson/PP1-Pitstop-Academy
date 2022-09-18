@@ -39,10 +39,12 @@ h2 {
 #menu,
 #logo {
      line-height: 75px;
+     text-align: right;
 }
 
 #menu li {
-     float: right;
+     
+     display: inline;
      list-style-type: none;
      margin-right: 30px;
 }
@@ -336,3 +338,8 @@ footer {
 @media screen and (max-width 900px) {
      
 }
+
+
+
+
+ 
