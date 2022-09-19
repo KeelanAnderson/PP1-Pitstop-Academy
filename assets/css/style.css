@@ -46,11 +46,11 @@ h2 {
 }
 
 #menu li {
-     
+
      display: inline;
      list-style-type: none;
      margin-right: 30px;
-     color:#3a3a3a;
+     color: #3a3a3a;
 }
 
 #menu a {
@@ -69,29 +69,25 @@ h2 {
 /* main image*/
 
 #hero-section {
+
      height: 600px;
      width: 100%;
-     background: url('../images/pexels-andrea-piacquadio-3806249.jpg') no-repeat center center;
+     background: url('../images/pexels-andrea-piacquadio-3806249.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
      background-size: cover;
-     clear: both;
-   
-}
 
-#cover-text,
-#cover-text h2 {
-     color: #fff;
 }
 
 #cover-text {
-     font-size: 130%;
-     font-family: 'Roboto Slab', sans-serif;
+     color: #fff;
+     font-size: 1.75rem;
      text-align: center;
      position: absolute;
      top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-
-
+     bottom: 50%;
+     left: 20%;
+     right: 20%;
 }
 
 /* about us section */
@@ -114,7 +110,7 @@ h2 {
 .about-us p {
      font-size: 1.5rem;
 
-     color: #fff;
+     color: #000000;
      margin: 0 auto;
      padding: 0 15% 10%;
 
@@ -132,7 +128,7 @@ h2 {
      color: red;
      text-align: center;
      padding: 30px 0 30px;
-     
+
 }
 
 .our-courses h3 {
@@ -190,22 +186,18 @@ h2 {
 #contact-section {
 
      color: #3a3a3a;
-     margin-left: 230px;
+     margin-left: 5%;
      padding: 30px;
 }
-
-
 
 iframe {
      height: 450px;
      width: 80%;
      margin: 0 auto 20px 10%;
-     
 }
 
 
 /* footer */
-
 
 footer {
      height: 200px;
@@ -232,23 +224,21 @@ footer {
 
 /* courses page */
 
-.course-section {
+.course-page {
      clear: left;
      background: url("../images/pexels-andrea-piacquadio-3806252.jpg");
      overflow: auto;
 }
 
 .course-box {
-     margin: 150px 0 150px 10%;
+     margin: 150px 10% 150px 10%;
      color: #fff;
      background-color: rgba(60, 60, 60, 0.9);
-     width: 600px;
-     height: 100%;
-     left: 10%;
+     max-width: 600px;
      padding: 80px;
      border: 2px solid red;
      clear: both;
-     overflow: hidden;
+
 }
 
 .course-box h2,
@@ -266,25 +256,24 @@ footer {
 /* Apply Now page */
 
 .form-section {
+
      clear: left;
-     background: url("../images/pexels-matheus-bertelli-3007436.jpg") no-repeat center center;
+     background-image: url("../images/pexels-matheus-bertelli-3007436.jpg");
+     background-repeat: no-repeat;
+     background-position: 35% 75%;
      background-size: cover;
-     background-position: center;
-     height: 1500px;
+     overflow: auto;
+
 }
 
 .application-form {
-     margin: 150px 10% 0 0;
+     margin: 150px 10%;
      color: #fff;
      background-color: rgba(60, 60, 60, 0.9);
      max-width: 600px;
-     height: 130%;
-     position: absolute;
-     left: 10%;
+     min-height: 900px;
      padding: 80px;
      border: 2px solid red;
-     min-height: 900px;
-     overflow: hidden;
 }
 
 .application-form h2 {
@@ -294,7 +283,7 @@ footer {
 .input-text {
      background: transparent;
      color: #fff;
-     width: 100%;
+     max-width: 100%;
      height: 20px;
      margin: 5px 0 30px 0;
      border: 1px solid #fff;
@@ -303,7 +292,7 @@ footer {
 .textarea-form {
      background: transparent;
      color: #fff;
-     width: 100%;
+     max-width: 100%;
      height: 80px;
      margin: 5px 0 30px 0;
      border: 1px solid #fff;
@@ -323,13 +312,130 @@ footer {
 
 /* media queries */
 
-/* for large to medium screen sizes from 900px wide and down */
+/* for large to medium screen sizes from 1200px wide and down */
 
-@media screen and (max-width 900px) {
-     
+@media only screen and (max-width: 1100px) {
+
+     .mediaquery {
+          visibility: hidden;
+     }
+
 }
 
+/* for medium to small screen sizes from 950px wide and down */
+
+@media only screen and (max-width: 950px) {
+
+     #menu {
+          clear: both;
+          text-align: left;
+          margin-left: 30px;
+          font-size: 0.75rem;
+          padding: 0;
+     }
+
+     #logo {
+          font-size: 1.5rem;
+          padding: 0;
+     }
+
+     .about-us p {
+          font-size: 1rem;
+     }
+
+     .our-courses p,
+     .our-courses ul {
+          font-size: 1rem;
+     }
 
 
+     #contact-section h2 {
 
- 
+          margin-top: 0;
+          padding: 0 auto;
+     }
+
+}
+
+/* for medium screen sizes from 950px wide and down */
+
+@media only screen and (max-width: 850px) {
+
+     /*course page */
+
+     .course-box h3,
+     .course-box h4 {
+          margin-bottom: 10px;
+          font-size: 0.75rem;
+     }
+
+     .course-box h2 {
+          font-size: 1rem;
+
+     }
+
+     .course-box ul,
+     .course-box p {
+          margin: 10px auto 10px;
+          font-size: 0.5rem;
+
+     }
+
+     /* form pages */
+
+     .form-section {
+          clear: left;
+          background: url("../images/pexels-matheus-bertelli-3007436.jpg") no-repeat center center;
+          background-size: cover;
+          background-position: center;
+          height: 1500px;
+     }
+
+     .application-form {
+          margin: 150px 10% 0 0;
+          color: #fff;
+          background-color: rgba(60, 60, 60, 0.9);
+          max-width: 600px;
+
+          position: absolute;
+          left: 10%;
+          padding: 80px;
+          border: 2px solid red;
+          min-height: 900px;
+
+     }
+
+     .application-form h2 {
+          margin-bottom: 30px;
+     }
+
+     .input-text {
+          background: transparent;
+          color: #fff;
+          width: 100%;
+          height: 20px;
+          margin: 5px 0 30px 0;
+          border: 1px solid #fff;
+     }
+
+     .textarea-form {
+          background: transparent;
+          color: #fff;
+          width: 100%;
+          height: 80px;
+          margin: 5px 0 30px 0;
+          border: 1px solid #fff;
+          resize: none;
+
+     }
+
+     .apply-now-button {
+          margin-top: 20px;
+          border-radius: 2px;
+          padding: 15px 35px 15px 35px;
+          text-align: center;
+          font-size: 100%;
+          color: #fff;
+          background-color: red;
+     }
+}
