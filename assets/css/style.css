@@ -304,8 +304,11 @@ footer {
 
 @media only screen and (max-width: 1100px) {
 
+     /*home page */
+
      .mediaquery {
-          visibility: hidden;
+          display: none;
+     
      }
 
      .our-courses p,
@@ -337,6 +340,8 @@ footer {
           padding: 0;
      }
 
+     /* home pagr */
+
      .about-us p {
           font-size: 1rem;
      }
@@ -352,6 +357,8 @@ footer {
           margin-left: 0;
      }
 
+     /* course page */
+
      .course-box {
           padding: 8%;
           margin: 15% 8%;
@@ -360,30 +367,13 @@ footer {
      .course-box h3,
      .course-box h4 {
           margin-bottom: 10px;
-          font-size: 3vw;
-     }
-
-     .course-box h2 {
-          font-size: 4vw;
-
      }
 
      .course-box ul,
      .course-box p {
           margin: 10px auto 10px;
-          font-size: 2vw;
 
      }
-
-}
-
-/* for small screen sizes from 850px wide and down */
-
-@media only screen and (max-width: 850px) {
-
-     /*course page */
-
-
 
      /* form pages */
 
@@ -395,6 +385,5 @@ footer {
      .application-form h2 {
           font-size: 1rem;
      }
-
 
 }
