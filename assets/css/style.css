@@ -92,7 +92,7 @@ h2 {
      position: relative;
      top: 45%;
      padding: 0 10%;
-     
+
 }
 
 /* about us section */
@@ -326,7 +326,7 @@ footer {
 
      .mediaquery {
           display: none;
-     
+
      }
 
      .our-courses-section p,
@@ -337,7 +337,7 @@ footer {
 
      .our-courses {
           padding-bottom: 10px;
-     
+
      }
 
 }
@@ -376,8 +376,8 @@ footer {
 
 
      #contact-section {
-
           margin-left: 0;
+
      }
 
      /* course page */
@@ -385,11 +385,13 @@ footer {
      .course-box {
           padding: 8%;
           margin: 15% 8%;
+
      }
 
      .course-box h3,
      .course-box h4 {
           margin-bottom: 10px;
+
      }
 
      .course-box ul,
@@ -403,10 +405,12 @@ footer {
      .application-form {
           padding: 5%;
           margin: 15% 8%;
+
      }
 
      .application-form h2 {
           font-size: 1rem;
+          
      }
 
 }
