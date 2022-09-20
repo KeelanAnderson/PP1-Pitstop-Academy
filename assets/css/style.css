@@ -356,6 +356,7 @@ footer {
      }
 
      #logo {
+          text-align: left;
           font-size: 1.5rem;
           padding: 0;
 
@@ -411,6 +412,16 @@ footer {
      .application-form h2 {
           font-size: 1rem;
           
+     }
+
+}
+
+/* for small screens 550px wide and down */
+
+@media only screen and (max-width: 550px) {
+
+     #menu{
+          letter-spacing: 0;
      }
 
 }
