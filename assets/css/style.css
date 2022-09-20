@@ -416,12 +416,19 @@ footer {
 
 }
 
-/* for small screens 550px wide and down */
+/* for small screens 400px wide and down */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 400px) {
 
      #menu{
           letter-spacing: 0;
+          
+     }
+
+     #menu li {
+          display: block;
+          margin-right: 4%;
+     
      }
 
 }
