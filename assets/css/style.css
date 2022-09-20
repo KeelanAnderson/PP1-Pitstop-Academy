@@ -426,8 +426,9 @@ footer {
      }
 
      #menu li {
-          display: block;
+          display: inline-block;
           margin-right: 4%;
+          margin-top: 0px;
      
      }
 
