@@ -109,7 +109,6 @@ h2 {
 
 .about-us p {
      font-size: 1.5rem;
-
      color: #000000;
      margin: 0 auto;
      padding: 0 15% 10%;
@@ -143,7 +142,6 @@ h2 {
      font-size: 1.25rem;
      color: #fff;
      width: 60%;
-
 }
 
 .our-courses form {
@@ -151,35 +149,25 @@ h2 {
      margin-right: 10px;
 }
 
+.courses-image {
+     height: 300px;
+     width: 300px;
+     border: 3px solid red;
+     float: right;
+     position: relative;
+     bottom: 400px;
+
+
+}
+
 .icons {
      margin-bottom: 15px;
 }
 
-
-#apprentice-course {
-     height: 450px;
-     width: 100%;
-     box-sizing: border-box;
-     margin-top: 40px;
-     padding: 80px;
-     border: 1px solid red;
-
-     background-color: #3a3a3a;
-     overflow: visible;
-}
-
-.courses-image {
-     height: 300px;
-     width: 300px;
-
-     border: 3px solid red;
-
-     float: right;
-     position: relative;
-     bottom: 300px;
+.apprentice-course {
+     padding-bottom: 10%;
 
 }
-
 
 /* contact and location section */
 
@@ -187,7 +175,7 @@ h2 {
 
      color: #3a3a3a;
      margin-left: 5%;
-     padding: 30px;
+     padding: 5%;
 }
 
 iframe {
@@ -283,7 +271,7 @@ footer {
 .input-text {
      background: transparent;
      color: #fff;
-     max-width: 100%;
+     width: 100%;
      height: 20px;
      margin: 5px 0 30px 0;
      border: 1px solid #fff;
@@ -320,6 +308,16 @@ footer {
           visibility: hidden;
      }
 
+     .our-courses p,
+     .our-courses ul {
+          width: 100%;
+     }
+
+     .apprentice-course {
+          padding-bottom: 0;
+     
+     }
+
 }
 
 /* for medium to small screen sizes from 950px wide and down */
@@ -349,93 +347,54 @@ footer {
      }
 
 
-     #contact-section h2 {
+     #contact-section {
 
-          margin-top: 0;
-          padding: 0 auto;
+          margin-left: 0;
      }
 
-}
-
-/* for medium screen sizes from 950px wide and down */
-
-@media only screen and (max-width: 850px) {
-
-     /*course page */
+     .course-box {
+          padding: 8%;
+          margin: 15% 8%;
+     }
 
      .course-box h3,
      .course-box h4 {
           margin-bottom: 10px;
-          font-size: 0.75rem;
+          font-size: 3vw;
      }
 
      .course-box h2 {
-          font-size: 1rem;
+          font-size: 4vw;
 
      }
 
      .course-box ul,
      .course-box p {
           margin: 10px auto 10px;
-          font-size: 0.5rem;
+          font-size: 2vw;
 
      }
+
+}
+
+/* for small screen sizes from 850px wide and down */
+
+@media only screen and (max-width: 850px) {
+
+     /*course page */
+
+
 
      /* form pages */
 
-     .form-section {
-          clear: left;
-          background: url("../images/pexels-matheus-bertelli-3007436.jpg") no-repeat center center;
-          background-size: cover;
-          background-position: center;
-          height: 1500px;
-     }
-
      .application-form {
-          margin: 150px 10% 0 0;
-          color: #fff;
-          background-color: rgba(60, 60, 60, 0.9);
-          max-width: 600px;
-
-          position: absolute;
-          left: 10%;
-          padding: 80px;
-          border: 2px solid red;
-          min-height: 900px;
-
+          padding: 5%;
+          margin: 15% 8%;
      }
 
      .application-form h2 {
-          margin-bottom: 30px;
+          font-size: 1rem;
      }
 
-     .input-text {
-          background: transparent;
-          color: #fff;
-          width: 100%;
-          height: 20px;
-          margin: 5px 0 30px 0;
-          border: 1px solid #fff;
-     }
 
-     .textarea-form {
-          background: transparent;
-          color: #fff;
-          width: 100%;
-          height: 80px;
-          margin: 5px 0 30px 0;
-          border: 1px solid #fff;
-          resize: none;
-
-     }
-
-     .apply-now-button {
-          margin-top: 20px;
-          border-radius: 2px;
-          padding: 15px 35px 15px 35px;
-          text-align: center;
-          font-size: 100%;
-          color: #fff;
-          background-color: red;
-     }
 }
