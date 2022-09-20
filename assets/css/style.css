@@ -10,6 +10,7 @@ body {
      font-family: 'Lato', sans-serif;
      font-weight: 300;
      color: #3a3a3a;
+
 }
 
 /* headings */
@@ -29,6 +30,7 @@ h2 {
      float: left;
      font-size: 250%;
      margin-left: 30px;
+
 }
 
 /* nav bar */
@@ -43,35 +45,39 @@ h2 {
 #logo {
      line-height: 75px;
      text-align: right;
+
 }
 
 #menu li {
-
      display: inline;
      list-style-type: none;
      margin-right: 30px;
      color: #3a3a3a;
+
 }
 
 #menu a {
      text-decoration: none;
      color: inherit;
+
 }
 
 #menu a:hover {
      border-bottom: 1px solid #3a3a3a;
+
 }
 
 .active {
      border-bottom: 1px solid #3a3a3a;
+
 }
 
 /* main image*/
 
 #hero-section {
-
      height: 600px;
      width: 100%;
+
      background: url('../images/pexels-andrea-piacquadio-3806249.jpg');
      background-repeat: no-repeat;
      background-position: center;
@@ -83,11 +89,10 @@ h2 {
      color: #fff;
      font-size: 1.75rem;
      text-align: center;
-     position: absolute;
-     top: 50%;
-     bottom: 50%;
-     left: 20%;
-     right: 20%;
+     position: relative;
+     top: 45%;
+     padding: 0 10%;
+     
 }
 
 /* about us section */
@@ -95,8 +100,8 @@ h2 {
 .about-us {
      width: 100%;
      text-align: center;
-
      background-color: silver;
+
 }
 
 .about-us h2 {
@@ -105,6 +110,7 @@ h2 {
      margin-bottom: 30px;
      padding-top: 30px;
      text-align: center;
+
 }
 
 .about-us p {
@@ -115,14 +121,15 @@ h2 {
 
 }
 
-/* our courses */
+/* our courses section */
 
-.our-courses {
+.our-courses-section {
      padding: 0 10% 10%;
      background-color: #3a3a3a;
+
 }
 
-.our-courses h2 {
+.our-courses-section h2 {
      font-size: 1.75rem;
      color: red;
      text-align: center;
@@ -130,23 +137,25 @@ h2 {
 
 }
 
-.our-courses h3 {
+.our-courses-section h3 {
      font-size: 1.5rem;
      color: red;
      margin: 40px auto 30px;
 
 }
 
-.our-courses p,
-.our-courses ul {
+.our-courses-section p,
+.our-courses-section ul {
      font-size: 1.25rem;
      color: #fff;
      width: 60%;
+
 }
 
-.our-courses form {
+.our-courses-section form {
      display: inline;
      margin-right: 10px;
+
 }
 
 .courses-image {
@@ -157,14 +166,14 @@ h2 {
      position: relative;
      bottom: 400px;
 
-
 }
 
 .icons {
      margin-bottom: 15px;
+
 }
 
-.apprentice-course {
+.our-courses {
      padding-bottom: 10%;
 
 }
@@ -172,18 +181,18 @@ h2 {
 /* contact and location section */
 
 #contact-section {
-
      color: #3a3a3a;
      margin-left: 5%;
      padding: 5%;
+
 }
 
 iframe {
      height: 450px;
      width: 80%;
      margin: 0 auto 20px 10%;
-}
 
+}
 
 /* footer */
 
@@ -192,15 +201,16 @@ footer {
      width: 100%;
      background-color: #3a3a3a;
 
-
 }
 
 .social-media {
      text-align: center;
+
 }
 
 .social-media>li {
      display: inline;
+
 }
 
 .social-media i {
@@ -208,6 +218,7 @@ footer {
      margin: 1%;
      padding: 5%;
      color: #fff;
+
 }
 
 /* courses page */
@@ -216,6 +227,7 @@ footer {
      clear: left;
      background: url("../images/pexels-andrea-piacquadio-3806252.jpg");
      overflow: auto;
+
 }
 
 .course-box {
@@ -232,6 +244,7 @@ footer {
 .course-box h2,
 .course-box h3 {
      margin-bottom: 20px;
+
 }
 
 
@@ -244,7 +257,6 @@ footer {
 /* Apply Now page */
 
 .form-section {
-
      clear: left;
      background-image: url("../images/pexels-matheus-bertelli-3007436.jpg");
      background-repeat: no-repeat;
@@ -262,10 +274,12 @@ footer {
      min-height: 900px;
      padding: 80px;
      border: 2px solid red;
+
 }
 
 .application-form h2 {
      margin-bottom: 30px;
+
 }
 
 .input-text {
@@ -275,6 +289,7 @@ footer {
      height: 20px;
      margin: 5px 0 30px 0;
      border: 1px solid #fff;
+
 }
 
 .textarea-form {
@@ -296,11 +311,14 @@ footer {
      font-size: 100%;
      color: #fff;
      background-color: red;
+
 }
+
 
 /* media queries */
 
-/* for large to medium screen sizes from 1200px wide and down */
+
+/* for large to medium screen sizes from 1100px wide and down */
 
 @media only screen and (max-width: 1100px) {
 
@@ -311,13 +329,14 @@ footer {
      
      }
 
-     .our-courses p,
-     .our-courses ul {
+     .our-courses-section p,
+     .our-courses-section ul {
           width: 100%;
+
      }
 
-     .apprentice-course {
-          padding-bottom: 0;
+     .our-courses {
+          padding-bottom: 10px;
      
      }
 
@@ -333,22 +352,26 @@ footer {
           margin-left: 30px;
           font-size: 0.75rem;
           padding: 0;
+
      }
 
      #logo {
           font-size: 1.5rem;
           padding: 0;
+
      }
 
-     /* home pagr */
+     /* home page */
 
      .about-us p {
           font-size: 1rem;
+
      }
 
-     .our-courses p,
-     .our-courses ul {
+     .our-courses-section p,
+     .our-courses-section ul {
           font-size: 1rem;
+
      }
 
 
