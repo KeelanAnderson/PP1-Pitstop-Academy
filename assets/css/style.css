@@ -20,7 +20,7 @@ h2 {
      font-family: 'Roboto Slab', sans-serif;
      text-transform: uppercase;
      letter-spacing: 4px;
-     color: red;
+     color: #EFC8A4;
 
 }
 
@@ -30,6 +30,7 @@ h2 {
      float: left;
      font-size: 250%;
      margin-left: 30px;
+     color: #3a3a3a;
 
 }
 
@@ -45,6 +46,7 @@ h2 {
 #logo {
      line-height: 75px;
      text-align: right;
+     background-color: #fff;
 
 }
 
@@ -75,7 +77,7 @@ h2 {
 /* main image*/
 
 #hero-section {
-     background-color: silver;
+     background-color: #cccccc;
 
 }
 
@@ -112,13 +114,13 @@ h2 {
 .about-us {
      width: 100%;
      text-align: center;
-     background-color: silver;
+     background-color: #CCCCCC;
 
 }
 
 .about-us h2 {
      font-size: 1.75rem;
-     color: red;
+     color: #3a3a3a;
      margin-bottom: 30px;
      padding-top: 30px;
      text-align: center;
@@ -127,7 +129,7 @@ h2 {
 
 .about-us p {
      font-size: 1.5rem;
-     color: #000000;
+     color: #3a3a3a;
      margin: 0 auto;
      padding: 0 15% 10%;
 
@@ -143,7 +145,7 @@ h2 {
 
 .our-courses-section h2 {
      font-size: 1.75rem;
-     color: red;
+     color: #EFC8A4;
      text-align: center;
      padding: 30px 0 30px;
 
@@ -151,7 +153,7 @@ h2 {
 
 .our-courses-section h3 {
      font-size: 1.5rem;
-     color: red;
+     color: #EFC8A4;
      margin: 40px auto 30px;
 
 }
@@ -173,7 +175,7 @@ h2 {
 .courses-image {
      height: 300px;
      width: 300px;
-     border: 3px solid red;
+     border: 10px solid #EFC8A4;
      float: right;
      position: relative;
      bottom: 400px;
@@ -196,6 +198,11 @@ h2 {
      color: #3a3a3a;
      margin-left: 5%;
      padding: 5%;
+
+}
+
+#contact-section h2 {
+     color: red;
 
 }
 
@@ -238,7 +245,7 @@ footer {
 .course-page {
      clear: left;
      background: url("../images/stock-image.jpg");
-     background-color: silver;
+     background-color: #cccccc;
      overflow: auto;
 
 }
@@ -249,7 +256,7 @@ footer {
      background-color: rgba(60, 60, 60, 0.9);
      max-width: 600px;
      padding: 80px;
-     border: 2px solid red;
+     border: 2px solid #EFC8A4;
      clear: both;
 
 }
@@ -286,7 +293,7 @@ footer {
      max-width: 600px;
      min-height: 900px;
      padding: 80px;
-     border: 2px solid red;
+     border: 2px solid #EFC8A4;
 
 }
 
@@ -322,8 +329,8 @@ footer {
      padding: 15px 35px 15px 35px;
      text-align: center;
      font-size: 100%;
-     color: #fff;
-     background-color: red;
+     color: #3a3a3a;
+     background-color: #EFC8A4;
 
 }
 
