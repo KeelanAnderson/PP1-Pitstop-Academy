@@ -33,9 +33,11 @@ A section where the user can learn a little bit about what we do here at Pitstop
 
 #### Our Courses Section
 
-this section shows the user a breif description of the courses we provide and each course section has two calls to action to either find out more information about the courses or apply to either one of the courses.
+this section shows the user a breif description of the courses we provide and each course section has a call to action for each course either to find out more information about the courses or apply to either one of the courses.
 
 it has been made responsive for all devices where the image beside the course will disappear on smaller screen sizes.
+
+the user will see the benefits of the courses. This should encourage the user to consider apply to the course that appeals to them.
 
 #### contact section
 
@@ -56,13 +58,14 @@ objectives of the applicants
 content provided in the course
 duration and price of the course
 
-there is also a link to a form for each course to apply.
+there is also a link to a application form for each course.
 
 the  first courses is an apprenticeship program which will allow applicants to learn while they earn on the job
-while been provided with top quality training and experience.
+while been provided with top quality training and experience and the content provided should encourage the user to apply.
 
 the second course is about roadside breakdowns and safety for all workers working on the side of the road which is very common in 
 the industry. it provides knowledge on how to be safe while working on the roadside and how to be set up for doing a breakdown on the roadside.
+the content provided will encourage the user to apply.
 
 #### application forms
 
@@ -72,9 +75,11 @@ they will be asked to provide their name, email, date of birth, phone number and
 
 the form for the saftey course is very similar only applicants will noy be asked to provide a cv or any additional information.
 
-this form will open in a separate tab for easy navigation for the user.
+this form will open in a separate tab for easy navigation for the user and does not contain the navigation bar only our logo which will bring the uaer back to the home page if clicked.
 
 ### Testing 
+
+
 
 ### Deployment
 
