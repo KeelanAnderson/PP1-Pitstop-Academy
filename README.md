@@ -1,31 +1,30 @@
 # Pitstop Academy
 
 Pitstop Academy aims the be the standard for formal training in the tyre industry providing workers with
-qualifications and certificates to prove their skills and knowledge in the industry. without formal education 
+qualifications and certificates to prove their skills and knowledge in the industry. Without formal education 
 bad working practices may fall into place if workers are unknowingly performing them due to lack of education 
 and training in the industry. these practices are passed on to collegues and employees who may be doing these 
 wrong even though they seem write because its how they were shown. Pitstop Academy aims to stop this and teach
-workers in the industry more about theory and ___ in the industry. this will lead to a higher standard of work
+workers in the industry more about theory and principles in the industry. This will lead to a higher standard of work
 and understanding in the industry and also reduce risk of injury, damage to vehicles, equimpment, tyres etc. and 
 also reduce risk for all road users in the case of an accident caused due to bad working practices.
 
-am i responsive image here*
 
 ## Features
 
-### existing features
+### Existing Features
 
-#### navigation bar
+#### Navigation Bar
 
 the Navigation bar features all pages of the website except for the safety course application form. It is fully responsive, includes links to the Logo, Home page, Courses page and the Apply Now page. It is identical in each page to allow for easy navigation. The nav bar will let the user easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-nav bar image here*
+![](vscode-remote://keelanander-pitstopacad-8e4ukpeoszv.ws-eu64.gitpod.io/workspace/Pitstop-Academy/assets/images/am-i-responsive-image.jpg)
 
 #### Hero Section
 
 the hero section includes an photograph and some text explaining who we are at pitstop academy.
 
-the hero image has been made responsive and will change on certain device at smaller widths to fit the screen sizes better.
+the hero image has been made fully responsive and will suit all device widths for a good user experience.
 
 #### About Us
 
@@ -39,24 +38,24 @@ it has been made responsive for all devices where the image beside the course wi
 
 the user will see the benefits of the courses. This should encourage the user to consider apply to the course that appeals to them.
 
-#### contact section
+#### Contact Section
 
-the contact section contains a phone number, email and our address if the user wished to contact us for more information and queries.
+the contact section contains a phone number, email and our address if the user wished to contact us for more information and queries. This sections heading has been styled red to make it stand out better to the user.
 
 this section also contain an iframe with an exact pin location on google maps so the user will know where to find us and how to get there.
 
-#### footer
+#### Footer
 
 the footer contains links to all of our socail media which will open in a new tab if clicked by the user as so not to take them away from our page if clicked.
 
-#### courses page
+#### Courses Page
 
 the courses page provides information on both of our courses including:
 
-benefits of taking the courses
-objectives of the applicants
-content provided in the course
-duration and price of the course
+- benefits of taking the courses
+- objectives of the applicants
+- content provided in the course
+- duration and price of the course
 
 there is also a link to a application form for each course.
 
@@ -67,15 +66,15 @@ the second course is about roadside breakdowns and safety for all workers workin
 the industry. it provides knowledge on how to be safe while working on the roadside and how to be set up for doing a breakdown on the roadside.
 the content provided will encourage the user to apply.
 
-#### application forms
+#### Application Forms
 
-the apprenticeship application form has its own page on our website as it is expected to be the main reason user will come to our website.
-this page will allow users to apply to our apprenticeship program and provide some details to us.
-they will be asked to provide their name, email, date of birth, phone number and address. they will also be asked to confirm whether they hold a full or provisional driving licence in Ireland. applicants also has the chance to add their cv to the form and some additional information about themselves which they think might be useful. the last two fields will not be required to complete the form.
+The apprenticeship application form has its own page on our website as it is expected to be the main reason user will come to our website.
+This page will allow users to apply to our apprenticeship program and provide some details to us.
+They will be asked to provide their name, email, date of birth, phone number and address. they will also be asked to confirm whether they hold a full or provisional driving licence in Ireland. applicants also has the chance to add their cv to the form and some additional information about themselves which they think might be useful. the last two fields will not be required to complete the form.
 
-the form for the saftey course is very similar only applicants will noy be asked to provide a cv or any additional information.
+The form for the saftey course is very similar only applicants will noy be asked to provide a cv or any additional information.
 
-this form will open in a separate tab for easy navigation for the user and does not contain the navigation bar only our logo which will bring the user back to the home page if clicked.
+This form will open in a separate tab for easy navigation for the user and does not contain the navigation bar only our logo which will bring the user back to the home page if clicked.
 
 ### Features Left To Implement
 
@@ -90,9 +89,9 @@ I also want to add several more courses specifically for the fitting of all diff
 #### Validator Testing
 
 ##### HTML
-No errors were returned when passing through the official W3C validator
+- No errors were returned when passing through the official W3C validator
 ##### CSS
-No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official (Jigsaw) validator
 
 #### Unfixed Bugs
 
