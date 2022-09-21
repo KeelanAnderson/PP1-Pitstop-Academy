@@ -75,18 +75,38 @@ they will be asked to provide their name, email, date of birth, phone number and
 
 the form for the saftey course is very similar only applicants will noy be asked to provide a cv or any additional information.
 
-this form will open in a separate tab for easy navigation for the user and does not contain the navigation bar only our logo which will bring the uaer back to the home page if clicked.
+this form will open in a separate tab for easy navigation for the user and does not contain the navigation bar only our logo which will bring the user back to the home page if clicked.
+
+### Features Left To Implement
+
+I would like to add more photos of the work being acheived at Pitstop Academy with a gallery page with images and videos.
+
+I would also like to implement a page with free information and advice for all users.
+
+I also want to add several more courses specifically for the fitting of all different types of tyres.  
 
 ### Testing 
 
+#### Validator Testing
+
+##### HTML
+No errors were returned when passing through the official W3C validator
+##### CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+#### Unfixed Bugs
+
+  
 
 
 ### Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+This site was deployed to GitHub pages.
+
+I created my Repository on Github and coded the entire project on Gitpod.
+I deployed the site to Github Pages on Github in the repository settings and set the branch to main and saved.
+then I refreshed the page and detailed ribbon was displayed saying my site was successfully deployed.
+
 The live link can be found here - https://keelananderson.github.io/Pitstop-Academy/.
 
 ### Credits
