@@ -75,25 +75,37 @@ h2 {
 /* main image*/
 
 #hero-section {
-     height: 600px;
+     background-color: silver;
+
+}
+
+#hero-section img {
      width: 100%;
+     
+}
 
-     background: url('../images/pexels-andrea-piacquadio-3806249.jpg');
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-
+.container {
+     position: relative;
+     text-align: center;
+     
 }
 
 #cover-text {
+     all: initial;
+     font-family: 'Lato', sans-serif;
      color: #fff;
-     font-size: 1.75rem;
-     text-align: center;
-     position: relative;
-     top: 45%;
-     padding: 0 10%;
+     font-size: 4vw;
+     font-style: italic;
+     font-weight: 600;
 
 }
+
+.centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
 
 /* about us section */
 
@@ -411,7 +423,7 @@ footer {
 
      .application-form h2 {
           font-size: 1rem;
-          
+
      }
 
 }
@@ -420,16 +432,16 @@ footer {
 
 @media only screen and (max-width: 400px) {
 
-     #menu{
+     #menu {
           letter-spacing: 0;
-          
+
      }
 
      #menu li {
           display: inline-block;
           margin-right: 4%;
           margin-top: 0px;
-     
+
      }
 
 }
