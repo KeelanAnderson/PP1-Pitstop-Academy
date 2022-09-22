@@ -81,9 +81,9 @@ This form will open in a separate tab for easy navigation for the user and does 
 
 - I would like to add more photos of the work being acheived at Pitstop Academy with a gallery page with images and videos.
 
- -I would like to implement a page with free information and advice for all users.
+- I would like to implement a page with free information and advice for all users.
 
- -I want to add several more courses specifically for the fitting of all different types of tyres.  
+- I want to add several more courses specifically for the fitting of all different types of tyres.  
 
 - In the future i would like to make my own success page on completion of the application forms to thank users for applying to our courses instead of using the https://formdump.codeinstitute.net/.
 
