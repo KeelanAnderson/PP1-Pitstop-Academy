@@ -1,4 +1,5 @@
 # Pitstop Academy
+This is my First project on the Full Stack Web Developer at Code Institute course. the aims was to build a front-end website that was fully responsive all devices widths mobile, tablet and desktop. After reading the brief, I decided to create my own unique website about a training academy for tyre fitting as this is something I have always felt is needed in the industry from my experience.
 
 Pitstop Academy aims the be the standard for formal training in the tyre industry providing workers with
 qualifications and certificates to prove their skills and knowledge in the industry. Without formal education 
@@ -78,13 +79,27 @@ This form will open in a separate tab for easy navigation for the user and does 
 
 ### Features Left To Implement
 
-I would like to add more photos of the work being acheived at Pitstop Academy with a gallery page with images and videos.
+- I would like to add more photos of the work being acheived at Pitstop Academy with a gallery page with images and videos.
 
-I would also like to implement a page with free information and advice for all users.
+ -I would like to implement a page with free information and advice for all users.
 
-I also want to add several more courses specifically for the fitting of all different types of tyres.  
+ -I want to add several more courses specifically for the fitting of all different types of tyres.  
+
+- In the future i would like to make my own success page on completion of the application forms to thank users for applying to our courses instead of using the https://formdump.codeinstitute.net/.
 
 ### Testing 
+
+#### Browser and Screen Size Testing
+
+- I tried my website on as many different browsers as a could like Chrome, Microsoft Edge, Avast Secure, Safari, Opera and Firefox.
+
+- I also tested my website on my Iphone, Ipad and Computer and was happy with the outcome on each device.
+
+- I used the web developer tools consistenly to ensure my website was responsive at mobile screen sizes and then at larger screen sizes. I used the device feature of dev tools to test my website on all devices available.
+
+- I tried to commit my changes as much as possible. Like the testing I did this throughout the project to ensure I had lots of versions, and I could go back to a previous version should a major error occur.
+
+i tested the website, both on mobile and desktop. I clicked on all the links on the nav bar on every page and also click on all the links to the application forms and anchors. I also entered information into the application form and ensure they were prompted to enter information into every field that was designed with the 'required' attribute.
 
 #### Validator Testing
 
@@ -95,25 +110,54 @@ I also want to add several more courses specifically for the fitting of all diff
 
 #### Unfixed Bugs
 
-  
+- there was a slight change in the style on the "apply now" and "more details" buttons on safari but i was still happy with how they looked so I left it unchanged.
 
+- In the future i would like to make my own success page on completion of the application forms to thank users for applying to our courses instead of using https://formdump.codeinstitute.net/. The first Project is only front-end development and the back-end of the site is not supported on the information from the forms in not going to a real server.
 
 ### Deployment
 
 This site was deployed to GitHub pages.
 
-I created my Repository on Github and coded the entire project on Gitpod.
-I deployed the site to Github Pages on Github in the repository settings and set the branch to main and saved.
-then I refreshed the page and detailed ribbon was displayed saying my site was successfully deployed.
+I created my Repository on Github and coded the entire project on Gitpod. VSCode is my text editor. It has a built in terminal so I could do everything I needed in one place. GitHub is where my repository is held externally. I deployed the site to Github Pages from Github in the repository settings where I set the branch to main and saved it. I then refreshed the page and a detailed ribbon was displayed saying my site was successfully deployed.
 
-The live link can be found here - https://keelananderson.github.io/Pitstop-Academy/.
+- The live link can be found here - https://keelananderson.github.io/Pitstop-Academy/.
 
 ### Credits
 
 #### Content
 
+- To my mentor, Andre Aquilina , for guiding me through the process and offering assistance when neccesary to point me in the right direction.
+- The Slack community. The help a student is able to receive from the other students is a really great tool to have.
+- To all at Code Institute, the videos and information I received was top class and was what helped me create my first portfolio project. 
+
+-  HTML5 provided the content and the structure of my website. I tried to use semantic elements where possible to ensure the best structure.
+- CSS was used to style my web pages.
+
+- The icons in the footer and home page were taken from https://fontawesome.com/.
+- The two main fonts I used were imported from https://fonts.google.com/.
+- The colour scheme i chose was helped with http://colormind.io/.
+- I checked the contrast between background and foregrouns were up to accessability quideline standards using https://webaim.org/resources/contrastchecker/.
+- The image used to show my website is fuly responsive is taken from https://ui.dev/amiresponsive?.
+
+- I used https://www.w3schools.com/ and https://stackoverflow.com/ alot throughout my project to help me when i was stuck with how to write my code. I used w3school to help me center the cover text on my hero image. i also learned that a button element nested inside an anchor element is not valid html when i validated it and stack overflow provided me with the alternative to my problem.
+
+- I used google maps to copy the code for the iframe element on my home page.
+
+- I used the https://formdump.codeinstitute.net/ for the success pages on completion of the forms in my website.
+
+- I took alot of inspiration for my design from the Love Running and coffee codershouse Projects.
+
+- I used the address and location in the iframe of the company I currently work for https://www.midlandtyres.ie/.
+
+- Some of the text for the Courses was taken from https://training.michelin.co.uk/courses/licence-to-fit-roadside-recovery/.
+
 #### Media
 
 The images used for this website were taken from https://www.pexels.com/
 
-these images were cropped and edited using Paint.
+These images were cropped and edited using Paint.
+
+##### copied code
+
+- As stated above, I used various websites to import animations and fonts etc. However, I explicitly copied code from love running project for my footer and at the start of the project for the nav bar which i later changed to make it more responsive as i really liked the design they used in the project and wanted to include it in my own.
+- I used the https://formdump.codeinstitute.net/ for the success pages on completion of the forms in my website.
