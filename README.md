@@ -10,6 +10,7 @@ workers in the industry more about theory and principles in the industry. This w
 and understanding in the industry and also reduce risk of injury, damage to vehicles, equimpment, tyres etc. and 
 also reduce risk for all road users in the case of an accident caused due to bad working practices.
 
+![ am i responsive image ](/assets/images/am-i-responsive-image.jpg "Text to show on mouseover")
 
 ## Features
 
@@ -19,17 +20,22 @@ also reduce risk for all road users in the case of an accident caused due to bad
 
 the Navigation bar features all pages of the website except for the safety course application form. It is fully responsive, includes links to the Logo, Home page, Courses page and the Apply Now page. It is identical in each page to allow for easy navigation. The nav bar will let the user easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![](vscode-remote://keelanander-pitstopacad-8e4ukpeoszv.ws-eu64.gitpod.io/workspace/Pitstop-Academy/assets/images/am-i-responsive-image.jpg)
+![ nav bar ](/assets/images/nav-bar.md.jpg "Text to show on mouseover")
 
 #### Hero Section
 
-the hero section includes an photograph and some text explaining who we are at pitstop academy.
+the hero section includes an photograph and some text explaining who we are at pitstop academy. The text has been styled to be big and bold to make it stand out against the background for good ux and accessability.
 
 the hero image has been made fully responsive and will suit all device widths for a good user experience.
+
+![ hero image ](/assets/images/hero-image.md.jpg "Text to show on mouseover")
 
 #### About Us
 
 A section where the user can learn a little bit about what we do here at Pitstop Academy.
+
+![ about us section ](/assets/images/about-us.md.jpg "Text to show on mouseover")
+
 
 #### Our Courses Section
 
@@ -39,15 +45,24 @@ it has been made responsive for all devices where the image beside the course wi
 
 the user will see the benefits of the courses. This should encourage the user to consider apply to the course that appeals to them.
 
+![ our courses section ](/assets/images/our-courses.md.jpg "Text to show on mouseover")
+
+
 #### Contact Section
 
 the contact section contains a phone number, email and our address if the user wished to contact us for more information and queries. This sections heading has been styled red to make it stand out better to the user.
 
 this section also contain an iframe with an exact pin location on google maps so the user will know where to find us and how to get there.
 
+![contact us section ](/assets/images/contact-us.md.jpg "Text to show on mouseover")
+
+
 #### Footer
 
 the footer contains links to all of our socail media which will open in a new tab if clicked by the user as so not to take them away from our page if clicked.
+
+![ hero image ](/assets/images/footer.md.jpg "Text to show on mouseover")
+
 
 #### Courses Page
 
@@ -67,6 +82,9 @@ the second course is about roadside breakdowns and safety for all workers workin
 the industry. it provides knowledge on how to be safe while working on the roadside and how to be set up for doing a breakdown on the roadside.
 the content provided will encourage the user to apply.
 
+![ hero image ](/assets/images/courses-page.md.jpg "Text to show on mouseover")
+
+
 #### Application Forms
 
 The apprenticeship application form has its own page on our website as it is expected to be the main reason user will come to our website.
@@ -77,6 +95,10 @@ The form for the saftey course is very similar only applicants will noy be asked
 
 This form will open in a separate tab for easy navigation for the user and does not contain the navigation bar only our logo which will bring the user back to the home page if clicked.
 
+![ apprenticeship form ](/assets/images/form1.md.jpg "Text to show on mouseover")
+![ safety course form ](/assets/images/form2.md.jpg "Text to show on mouseover")
+
+
 ### Features Left To Implement
 
 - I would like to add more photos of the work being acheived at Pitstop Academy with a gallery page with images and videos.
@@ -86,6 +108,8 @@ This form will open in a separate tab for easy navigation for the user and does 
 - I want to add several more courses specifically for the fitting of all different types of tyres.  
 
 - In the future i would like to make my own success page on completion of the application forms to thank users for applying to our courses instead of using the https://formdump.codeinstitute.net/.
+
+- In the future I would like to change the layout of the apply now page when there are more courses available so that there is a link to the form for each course to open in a separate tab like displayed in the second form for the Roadside Breakdowns and Safety Course.
 
 ### Testing 
 
