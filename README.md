@@ -132,6 +132,12 @@ This form will open in a separate tab for easy navigation for the user and does 
 ##### CSS
 - No errors were found when passing through the official (Jigsaw) validator
 
+##### Acccessibility
+
+- I confirmed thst the colors and fonts chosen were easily read and accessible by running it through lighthouse in devtools.
+
+![ lighthouse ](/assets/images/lighthouse.md.jpg "Text to show on mouseover")
+
 #### Unfixed Bugs
 
 - There was a slight change in the style on the "apply now" and "more details" buttons on safari but I was happy with how they looked so I left it unchanged.
