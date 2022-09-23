@@ -191,3 +191,5 @@ These images were cropped and edited using Paint.
 
 - As stated above, I used various websites to import animations and fonts etc. However, I explicitly copied code from love running project for my footer and at the start of the project for the nav bar which i later changed to make it more responsive as I really liked the design they used in the project and wanted to include it in my own.
 - I used the https://formdump.codeinstitute.net/ for the success pages on completion of the forms in my website.
+- I also copied code from https://www.w3schools.com/ to help me with the accessibilty for the hero image on my home page.
+- The iframe on the home page in copied from google maps.
